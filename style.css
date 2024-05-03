@@ -1,0 +1,129 @@
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+    font-size: 17px;
+}
+
+.nav-info{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(1, 58, 1);
+    
+}
+
+.nav-info li{
+    margin: 0.4em;
+    margin-right: 1em;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.outline{
+    margin-right: 0.3em;
+}
+
+.header-info{
+    background-color: rgb(39, 179, 39);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.person{
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.person-outline{
+    margin-right: 0.4em;
+}
+
+.submit{
+    background-color: rgb(215, 84, 75);
+    border: 1px solid white;
+    color: white;
+    font-family: poppins;
+    border-radius: 3em;
+    height: 3em;
+    width: 9em;
+}
+
+.submit:hover{
+    background-color: rgb(84, 13, 13);
+}
+
+.timer{
+    margin-right: 1em;
+}
+
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.subjects ul{
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid black;
+    padding-left: 0px;
+}
+
+.subjects li{
+    margin-right: 1em;
+    padding-bottom: 0.5em;
+}
+
+.subjects ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.question{
+    display: flex;
+    align-items: center;
+}
+
+.chevron-down, .question-question, .count{
+    margin-right: 0.5em;
+}
+
+
+form{
+    line-height: 2em;
+}
+
+.buttons{
+    margin-top: 1em;
+}
+
+.button{
+    color: white;
+    border-radius: 1em;
+    height: 3em;
+    width: 8em;
+}
+
+.button1{
+    background-color: blue;
+    border-color: blue;
+}
+
+.button2{
+    background-color: rgb(39, 179, 39);
+    border-color:  rgb(39, 179, 39);
+}
+
+.hidden{
+    display: none;
+}

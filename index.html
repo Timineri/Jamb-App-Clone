@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+<title>Jamb App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-info">
+            <li title="Log Out"> <ion-icon name="" class="outline" ></ion-icon>Log Out</li>
+            <li title="Calculator"><ion-icon name="calculator-outline" class="outline"></ion-icon>Calculator</li>
+            <li title="Bookmark"><ion-icon name="bookmarks-outline" class="outline" ></ion-icon>Bookmark</li>
+            <li title="Report Error"><ion-icon name="warning-outline" class="outline" ></ion-icon>Report Error</li>
+            <li title="Dictionary"><ion-icon name="book-outline" class="outline" ></ion-icon>Dictionary</li>
+        </ul>
+    </nav>
+    <header>
+       <div class="header-info">
+        <div class="person">
+            <ion-icon name="person-outline" class="person-outline"></ion-icon>
+            <span>Timineri Okoko</span>
+        </div>
+        <div>
+            <button class="submit">Submit</button>
+        </div>
+        <div>
+            <p class="timer">Timer</p>
+        </div>
+       </div>
+    </header>
+
+    <section>
+        <div class="subjects">
+            <ul>
+                <li><a href="">English</a></li>
+                <li><a href="">Mathematics</a></li>
+                <li><a href="">Agriculture</a></li>
+            </ul>
+        </div>
+
+        <div class="question">
+            <ion-icon name="chevron-down-outline" class="chevron-down"></ion-icon>
+            <span class="question-question">Question</span>
+            <span class="count"> 1/60</span>
+            <ion-icon name="mic-outline"></ion-icon>
+        </div>
+
+        <div>
+            <p class="question-sent">It is I who __________ go to the market today.</p>
+            <form action="">
+            <div>
+                <label for="A">A</label>
+                <input type="radio" name="options" id="A" value="A"> <span class="option1">am suppose</span>
+            </div>
+            <div>
+                <label for="B">B</label>
+                <input type="radio" name="options" id="B" value="B"> <span class="option2">is suppose</span>
+            </div>
+            <div>
+                <label for="C">C</label>
+                <input type="radio" name="options" id="C" value="C"> <span class="option3">should suppose</span>
+            </div>
+            <div>
+                <label for="D">D</label>
+                <input type="radio" name="options" id="D" value="D"> <span class="option4">are suppose</span>
+            </div>
+
+            </form>
+
+        </div>
+
+        <div class="buttons">
+            <button class=" button button1"><ion-icon name="chevron-back-outline"></ion-icon>Previous</button>
+            <button class=" button button2">Next <ion-icon name="chevron-forward-outline"></ion-icon></button>
+        </div>
+
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
